@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/game.css">
+	<style>
+	@font-face { font-family: Pokemon; src: url('Pokemon GB.ttf'); } 
+	h1 {font-family: Pokemon}
+	h3 {font-family: Pokemon}
+	p {font-family: Pokemon}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div class="container">
+		<div class="row">
+			<h1 class="title">Pokemon Stadium</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div id="pick" class="pick text-center">
+				<h3>Choose two Pokemon</h3>
+			</div>
+			<div class="charSelect">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="space hide">
+		<div class="col-md-2"></div>
+		<div class="col-md-4 charStats"></div>
+		<div class="col-md-4 enemyStats"></div>
+		<div class="col-md-2"></div>
+	</div>
+
+	
+	<div class="row arena">
+		<div class="currentCharacter col-md-6">
+			<div id="yourCharacter">
+				
+			</div>
+		</div>
+		<div class="currentEnemy col-md-6">
+			<div id="yourEnemy">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container footer" >
+		<button id="attack" class="btn btn-primary action col-md-4 hide"><h1>Attack</h1></button>
+		<div><button class="btn btn-primary reset col-md-4 hide">Redo</button></div>
+		<div class="enemies col-md-8">
+		</div>
+	</div>
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

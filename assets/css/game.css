@@ -1,0 +1,79 @@
+body {
+	background-image: url("http://vignette2.wikia.nocookie.net/fantendo/images/9/9c/PokemonStadium2Anarchy.jpg/revision/latest?cb=20150222143914");
+	background-size: 100%;
+}
+
+@font-face { font-family: Pokemon; src: url('Pokemon GB.ttf'); }
+
+h3 {
+	color: #2750B0;
+	background-color: #F8F7D8;
+	padding: 10px;
+	border: solid 2px;;
+}
+
+p {
+	font-size: 10px;
+}
+
+#bulbasaur {color: #399494}
+#charmander {color: #ff9441}
+#squirtle {color:#5a9ca4}
+#pikachu {color: #f6e652}
+#meowth {color: #ffe683}
+#zubat {color: #8bb4ee}
+
+.title {
+	font-family: Pokemon;
+	color: #FDE101;
+	text-align: center;
+}
+
+.charSelect {
+	background-color: #F8F7D8;
+	border-radius: 5px;
+	height: 130px;
+    border: solid 2px;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.space {
+	height: 317px;
+}
+
+.arena {
+	height: 100px;
+}
+
+.chosenPokemon {
+	padding-left: 270px;
+}
+
+.mirror {
+     -moz-transform: scale(-1, 1);
+     -webkit-transform: scale(-1, 1);
+     transform: scale(-1, 1);
+  }
+
+ .enemy {
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ }
+
+.chosenEnemy {
+	padding-left: 260px;
+}
+
+.hide {
+	display: none;
+}
+
+.footer {
+	position: fixed;
+	bottom:0;
+	left: 0;
+}
